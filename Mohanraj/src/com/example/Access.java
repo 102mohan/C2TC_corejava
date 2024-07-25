@@ -5,9 +5,8 @@ public class Access {
 	public int b=6;
 	protected int c=3;
 	int d=8;
-	private void a() {
-		System.out.println("private");
-	}
+	
+	
 	public void b()
 	{
 		System.out.println("public");
@@ -20,4 +19,18 @@ protected void c()
 void d() {
 	System.out.println("default");
 }
+
+	 
+
+	private void a() {
+		System.out.println("private");
+	
+}
+	public static void main(String[]args)
+	{
+		Access acc =new Access();
+		System.out.println(acc.d);
+		acc.b();
+	acc.a();
+	}
 }
