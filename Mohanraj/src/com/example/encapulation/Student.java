@@ -1,4 +1,4 @@
-package com.example;
+package com.example.encapulation;
 
 public class Student {
 private String name="jack sparrow";

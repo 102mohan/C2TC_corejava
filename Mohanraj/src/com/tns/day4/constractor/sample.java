@@ -1,4 +1,4 @@
-package com.tns.day4;
+package com.tns.day4.constractor;
 
 public class sample {
 

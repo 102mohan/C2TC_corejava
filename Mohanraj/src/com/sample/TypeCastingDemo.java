@@ -8,7 +8,7 @@ public class TypeCastingDemo {
 		int i = b;
 		System.out.println(i);
 		float f = 22.14f;
-		double d = f;
+		double d =f;
 		System.out.println(d);
 		char ch = 'A';
 		int i3 = ch;
@@ -18,7 +18,7 @@ public class TypeCastingDemo {
 		System.out.println(i4);
 		// narrowing/explicit type casting
 		double f1 = 10.52f;
-		long l = (long) f1;
+		long l =(long)f1;
 		System.out.println(l);
 		long l1 = 923372036854775806l;
 		int i2 = (int) l1;
